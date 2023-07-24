@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <script src="./js/scripts.js"></script>
+
+</head>
+<body onload="añadirCuentas()">
+    <section>
+        <select name="" id="sMenuCuentas">
+            <option selected >Seleccionar cuentas</option>
+            <input type="password" name="" id="inputContraseña">
+            <button id="Send" onclick="validarContraseña()">Validar contraseña</button>
+        </select>
+        <section id="MenuOpciones">
+            <select name="" id="Opciones" style="display: none;">
+                <option value="1">Consultar Saldo</option>
+                <option value="2">Ingresar Monto</option>
+                <option value="3">Retirar monto</option>
+            </select>
+        </section>
+        
+        <section id="Results">
+
+        </section>
+    </section>
+</body>
+</html>
