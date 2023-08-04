@@ -1,7 +1,7 @@
 var cuentas = [
-    {nombre: "Nico", saldo: 200, codigo: "101", cuenta: "0111", password: "0110"},
-    {nombre: "Geral", saldo: 290, codigo: "101", cuenta: "0222", password: "0220"},
-    {nombre: "Manuel", saldo: 67, codigo: "101", cuenta: "0033", password: "0330"},
+    {nombre: "Mali", saldo: 200, codigo: "101", cuenta: "0111", password: "0110"},
+    {nombre: "Gera", saldo: 290, codigo: "101", cuenta: "0222", password: "0220"},
+    {nombre: "Maui", saldo: 67, codigo: "101", cuenta: "0033", password: "0330"},
 ]
 let cuentaLogeada = {nombre: "", saldo: 0, codigo: "000", cuenta: "", password: ""}
 
