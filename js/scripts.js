@@ -1,12 +1,12 @@
 var cuentas = [
-    {nombre: "Mali", saldo: 200, codigo: "101", cuenta: "0111", password: "111"},
-    {nombre: "Gera", saldo: 290, codigo: "101", cuenta: "0222", password: "222"},
-    {nombre: "Maui", saldo: 67, codigo: "101", cuenta: "0033", password: "333"},
+    {nombre: "Nico", saldo: 200, codigo: "101", cuenta: "0111", password: "0110"},
+    {nombre: "Geral", saldo: 290, codigo: "101", cuenta: "0222", password: "0220"},
+    {nombre: "Manuel", saldo: 67, codigo: "101", cuenta: "0033", password: "0330"},
 ]
 let cuentaLogeada = {nombre: "", saldo: 0, codigo: "000", cuenta: "", password: ""}
 
 function añadirCuentas() {
-    for (let i in cuentas) {
+    for (let i in cuentas) {    
         let select = document.getElementById("sMenuCuentas")
         let option = document.createElement('option')
         option.value = cuentas[i].cuenta
